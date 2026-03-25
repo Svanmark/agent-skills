@@ -16,6 +16,13 @@ Example:
 npx skills add Svanmark/agent-skills --skill do-the-needful
 ```
 
+Another example:
+
+```bash
+npx skills add Svanmark/agent-skills --skill skip-that-standup
+```
+
 ## Available skills
 
 - `do-the-needful`
+- `skip-that-standup`
