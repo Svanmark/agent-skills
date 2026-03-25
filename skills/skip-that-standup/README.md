@@ -15,6 +15,7 @@ npx skills add Svanmark/agent-skills --skill skip-that-standup
 - Generates funny fake excuses for skipping meetings, standups, syncs, check-ins, and workshops
 - Calibrates how weird the excuse gets to the stakes of the meeting
 - Prefers oddly specific technical nonsense over boring scheduling conflicts
+- Keeps the excuses extremely short, usually 10 words or fewer
 - Offers async follow-up language so the user still sounds responsible
 - Defaults to quick, slightly sloppy internal chat wording unless the user asks for something more polished
 - Mirrors the requested tone, from polished corporate to casual internal chat to lightly meme-aware

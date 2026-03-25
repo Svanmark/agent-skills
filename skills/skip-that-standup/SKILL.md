@@ -11,6 +11,8 @@ The goal is not honesty, realism, or best-practice workplace communication. The 
 
 Default vibe: this should usually read like a slightly sloppy Slack or Teams message typed by someone busy, not a polished email drafted with legal review.
 
+Hard constraint: keep excuses extremely short. Aim for as few words as possible, and generally stay at 10 words or fewer unless the user explicitly asks for a longer version.
+
 ## Core behavior
 
 ### 1. Default to funny and slightly suspicious
@@ -39,6 +41,7 @@ Prefer wording that:
 - does not require a full backstory to work
 - offers an alternative like async input, notes review, or a follow-up later
 - sounds like a normal coworker sending a quick chat message
+- stays brutally short
 
 ### 3. Match the meeting stakes without losing the bit
 
@@ -106,6 +109,8 @@ Pick the mode that best fits the user's request.
 
 Provide one concise message the user can paste directly.
 
+This should usually be a single short line, not a multi-sentence explanation.
+
 ### Option set
 
 If the user sounds unsure, provide 3 options:
@@ -155,6 +160,7 @@ Allow light traits like:
 - lowercase openings
 - missing small filler words
 - quick sign-off style like `will catch up async`
+- very few words
 
 Do not overdo it.
 
@@ -171,6 +177,12 @@ Good chat-style examples:
 - `sorting some cert thing rn so cant make it`
 - `got pulled into a weird vpn migration issue, will catch up async`
 - `dealing with some cert / dns thing right now so will miss this one`
+
+Prefer even shorter variants when possible:
+
+- `sql server install issue, skipping today`
+- `stuck on cert thing, cant join`
+- `vpn migration mess, missing standup`
 
 The best output should feel casually sloppy, not cartoonishly incompetent.
 
@@ -205,6 +217,8 @@ If the user asks for one excuse, return:
 1. the message itself
 2. an optional cleaner variant if useful
 3. a subject line only if email seems likely
+
+The first option should be the shortest good version.
 
 If the user asks more broadly, return a small set of options with labels.
 
